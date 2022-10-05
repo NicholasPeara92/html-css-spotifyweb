@@ -7,3 +7,17 @@
 .none {
     display: none;
 }
+
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.list-inline {
+    list-style: none;
+}
