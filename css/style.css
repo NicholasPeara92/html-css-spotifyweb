@@ -1,5 +1,15 @@
 @import url(reset.css);
+@import url(common.css);
 @import url(header.css);
 @import url(aside.css);
 @import url(main.css);
 @import url(footer.css);
+
+
+body {
+    height: 100vh;
+}
+
+.page-container {
+    height:calc(100% - 90px);
+}
