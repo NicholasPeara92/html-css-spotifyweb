@@ -4,6 +4,7 @@ aside {
     width: 230px;
     background-color: black;
     color: #d2d2d2;
+    overflow-y: auto;
 }
 .logo {
     padding-top: 1.25rem;
