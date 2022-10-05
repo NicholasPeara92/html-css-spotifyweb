@@ -3,4 +3,49 @@
 aside {
     width: 230px;
     background-color: black;
+    color: #d2d2d2;
+}
+.logo {
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+aside nav {
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+aside li {
+    padding: .3125rem;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    aside {
+        width: 50px;
+    }
+    .logo > .h-40 {
+        display: none;
+    }
+    .logo > .h-30 {
+        display: block;
+    }
+    .logo {
+        padding-top: .3125rem;
+        padding-left: .625rem;
+    }
+    aside small {
+        display: none;
+    }
+    aside nav {
+        padding-top: .625rem;
+        padding-left: .625rem;
+    }
+    aside i {
+        font-size: 1.375rem;
+        padding-bottom: .25rem;
+    }
 }
