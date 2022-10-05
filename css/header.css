@@ -8,3 +8,19 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 90px;
 }
+
+header button {
+    background-color: #080b12;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2.5rem;
+    height: 2.5rem;
+    padding: 0 2.5rem;
+    margin-right: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        left: 50px;
+    }
+}

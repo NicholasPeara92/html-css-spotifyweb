@@ -17,6 +17,9 @@
 .justify-between {
     justify-content: space-between;
 }
+.align-item-center {
+    align-items: center;
+}
 
 .list-inline {
     list-style: none;
