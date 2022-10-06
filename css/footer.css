@@ -61,7 +61,7 @@ footer .container {
 }
 .current-bar {
     height: 100%;
-    width: 100px;
+    width: 30%;
     background-color: white;
 }
 .current-min {
@@ -79,7 +79,7 @@ footer .container {
 }
 .current-volume-bar {
     height: 100%;
-    width: 30px;
+    width: 30%;
     background-color: white;
 }
 .col-right {
