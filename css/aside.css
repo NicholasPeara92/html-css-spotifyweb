@@ -21,18 +21,19 @@ nav img {
 }
 
 aside nav {
-    padding-top: 1.25rem;
     padding-left: 1.25rem;
     color: #a3a3a3;
 }
 aside h4 {
     color: white;
-    padding-left: 20px;
+    margin-left: 8px;
+    padding-top: 10px;
 }
 
 aside li {
     padding: .3125rem;
     align-items: center;
+    font-size: 14px;
 }
 .add {
     width: 37px;
