@@ -20,6 +20,9 @@
 .align-item-center {
     align-items: center;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 
 .list-style-none {
     list-style-type: none;
