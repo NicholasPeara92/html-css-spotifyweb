@@ -14,6 +14,9 @@ main {
     font-size: 10px;
     font-weight: bold;
 }
+.general-nav a, .subtitle {
+    color: #7a7d81;
+}
 .description a {
     display: block;
     text-align: center;

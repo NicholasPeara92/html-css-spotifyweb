@@ -44,3 +44,26 @@ footer .container {
     color: #5a5a5a;
     display: inline;
 }
+
+.col-center .fa-solid {
+    margin: 20px 10px;
+}
+.fa-circle-play {
+    font-size: 28px;
+    align-self: center;
+    margin: 0 20px;
+
+}
+.player-bar {
+    width: 430px;
+    height: 5px;
+    background-color: #5a5a5a;
+}
+.current-min {
+    font-size: 10px;
+    padding-right: 10px;
+}
+.total-min {
+    font-size: 10px;
+    padding-left: 10px;
+}
