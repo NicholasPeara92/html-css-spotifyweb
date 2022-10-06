@@ -5,6 +5,8 @@ aside {
     background-color: black;
     color: #d2d2d2;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 .logo {
     padding-top: 1.25rem;
@@ -12,6 +14,10 @@ aside {
 }
 nav img {
     filter: invert(60%);
+}
+.add {
+    margin-left: 18px;
+    margin-top: 10px;
 }
 
 aside nav {
@@ -21,6 +27,7 @@ aside nav {
 }
 aside h4 {
     color: white;
+    padding-left: 20px;
 }
 
 aside li {
@@ -43,12 +50,12 @@ aside li {
 }
 .download {
     color: #a3a3a3;
-    margin-top: 250px;
 }
 .profile {
     margin-top: .8125rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+    margin-bottom: 10px;
     padding-top: .9375rem;
     align-items: center;
     border-top: 1px solid #a3a3a3;
@@ -58,6 +65,23 @@ aside li {
     height: 25px;
     border-radius: 50%;
     background-color: grey;
+}
+.account {
+    margin-top: auto;
+}
+.playlist {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: 1;
+}
+.playlist-nav {
+    flex-grow: 1;
+    overflow-y: hidden;
+}
+.playlist-nav ul {
+    overflow-y: auto;
+    height: 100%;
 }
 
 

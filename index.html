@@ -24,7 +24,7 @@
                     <img class="h-30 none" src="img/logo-small.svg" alt="logo Spotify small">
                 </div>
                 <!-- navigazione principale -->
-                <nav>
+                <nav class="main-nav">
                     <ul class="list-style-none">
                         <li class="flex">
                             <span>
@@ -53,30 +53,34 @@
                     </ul>
                 </nav>
                 <!-- navigazione playlist -->
-                <nav class="playlist">
+                <div class="playlist">
                     <h4>PLAYLIST</h4>
-                    <ul class="list-style-none">
-                        <li>
-                            <button class="add"><i class="fa-solid fa-plus"></i></button>
-                            <span class="p-left-10">Crea Playlist</span>
-                        </li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                    </ul>
-                </nav>
+                    <div class="p-left-10">
+                        <button class="add"><i class="fa-solid fa-plus"></i></button>
+                        Crea Playlist
+                    </div>
+                        <nav class="playlist-nav">
+                            <ul class="list-style-none">
+                                <li><a href="#">Nome Playlist</a></li>
+                                <li><a href="#">Nome Playlist</a></li>
+                                <li><a href="#">Nome Playlist</a></li>
+                                <li><a href="#">Nome Playlist</a></li>
+                                <li><a href="#">Nome Playlist</a></li>
+                                <li><a href="#">Nome Playlist</a></li>
+                                <li><a href="#">Nome Playlist</a></li>
+                            </ul>
+                        </nav>
+                </div>
                 <!-- download e profilo -->
-                <nav class="download flex">
-                    <span><img src="img/download.svg" alt="download"></span>
-                    <span class="p-left-10">Installa app</span>  
-                </nav>
-                <div class="profile flex">
-                    <div class="img"></div>
-                    <div class="p-left-10"><strong>John Doe</strong></div>
+                <div class="account">
+                    <nav class="download flex">
+                        <span><img src="img/download.svg" alt="download"></span>
+                        <span class="p-left-10">Installa app</span>  
+                    </nav>
+                    <div class="profile flex">
+                        <div class="img"></div>
+                        <div class="p-left-10"><strong>John Doe</strong></div>
+                    </div>
                 </div>
             </aside>
             <main></main>
