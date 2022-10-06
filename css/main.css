@@ -33,9 +33,14 @@ main {
     color: white;
     padding: 10px 0;
 }
-.recently-played h2 {
+main h2 {
     padding: 20px 10px;
 }
+main h6 {
+    padding: 0 0 10px 10px;
+    color: #7a7d81;
+}
+
 
 @media screen and (max-width: 1100px) {
     .general-nav li {
