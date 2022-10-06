@@ -59,6 +59,11 @@ footer .container {
     height: 5px;
     background-color: #5a5a5a;
 }
+.current-bar {
+    height: 100%;
+    width: 100px;
+    background-color: white;
+}
 .current-min {
     font-size: 10px;
     padding-right: 10px;
