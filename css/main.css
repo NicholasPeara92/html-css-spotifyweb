@@ -14,17 +14,47 @@ main {
     font-size: 10px;
     font-weight: bold;
 }
+.description a {
+    display: block;
+    text-align: center;
+}
+.col {
+    width: calc(100% / 6);
+    padding: 10px;
+}
+.col img {
+    width: 100%;
+}
+.recently-played {
+    padding-right: 10px;
+}
+.description .title {
+    font-weight: bold;
+    color: white;
+    padding: 10px 0;
+}
+.recently-played h2 {
+    padding: 20px 10px;
+}
 
 @media screen and (max-width: 1100px) {
     .general-nav li {
         padding: 10px;
         width: calc(100% / 5);
     }
+    .col {
+        width: calc(100% / 4);
+        padding: 10px;
+    }
 }
 @media screen and (max-width: 700px) {
     .general-nav li {
         padding: 10px;
         width: calc(100% / 3);
+    }
+    .col {
+        width: calc(100% / 2);
+        padding: 10px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -34,6 +64,10 @@ main {
     .general-nav li {
         padding: 10px;
         width: calc(100% / 4);
+    }
+    .col {
+        width: calc(100% / 2);
+        padding: 10px;
     }
 }
 

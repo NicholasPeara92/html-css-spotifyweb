@@ -101,7 +101,7 @@ aside li {
         padding-top: .3125rem;
         padding-left: .625rem;
     }
-    aside small, .playlist, .p-left-10, strong {
+    aside small, .playlist,  aside .p-left-10, strong {
         display: none;
     }
     aside nav {
