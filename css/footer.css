@@ -72,3 +72,22 @@ footer .container {
     font-size: 10px;
     padding-left: 10px;
 }
+.volume-bar {
+    height: 5px;
+    width: 120px;
+    background-color: #5a5a5a;
+}
+.current-volume-bar {
+    height: 100%;
+    width: 30px;
+    background-color: white;
+}
+.col-right {
+    padding-right: 20px;
+}
+.col-right i:not(.fa-volume-high) {
+    padding-right: 20px;
+}
+.fa-volume-high {
+    padding-right: 10px;
+}
