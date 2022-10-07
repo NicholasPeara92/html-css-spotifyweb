@@ -84,6 +84,12 @@ aside li {
     overflow-y: auto;
     height: 100%;
 }
+.profile-img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
