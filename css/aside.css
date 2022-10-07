@@ -120,10 +120,10 @@ aside button:hover {
 .download img:hover {
     filter: none;
 }
-.main-nav .flex:hover .main-nav img {
+.main-nav .flex:hover img {
     filter: none;
 }
-.main-nav img:hover .main-nav a {
+.main-nav .flex:hover a {
     color: white;
 
 }
