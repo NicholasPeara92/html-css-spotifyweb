@@ -21,6 +21,9 @@ main {
 .general-nav a {
     display: inline-block;
 }
+.general-nav a:hover {
+    color: white;
+}
 
 .general-nav li:first-child:after{
     content: '';
