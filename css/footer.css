@@ -90,6 +90,15 @@ footer .container {
     padding-right: 10px;
 }
 
+.player-description a:hover h6 {
+    color: white;
+    text-decoration: underline;
+}
+.like-save i:hover {
+    color: white;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1100px) {
     .col-right, .col-left {
         width: 30%;
