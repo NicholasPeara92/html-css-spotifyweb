@@ -19,6 +19,9 @@ nav img {
     margin-left: 18px;
     margin-top: 10px;
 }
+.main-nav {
+    padding-top: 20px;
+}
 
 aside nav {
     padding-left: 1.25rem;
