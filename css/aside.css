@@ -21,6 +21,17 @@ nav img {
 }
 .main-nav {
     padding-top: 20px;
+    position: relative;
+}
+.main-nav li:first-child::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 24px;
+    background-color: lightgreen;
+    bottom: 21;
+    left: 0;
 }
 
 aside nav {
@@ -41,12 +52,14 @@ aside li {
 .add {
     width: 37px;
     height: 37px;
-    color: black;
     background-color: #a3a3a3;
     border: none;
     cursor: pointer;
-    font-weight: bold;
     font-size: 1.25rem;
+}
+.add i {
+    color: black;
+    font-weight: bold;
 }
 .download img {
     width: 20px;
@@ -87,11 +100,29 @@ aside li {
     overflow-y: auto;
     height: 100%;
 }
+.playlist-nav li {
+    padding: 10px 5px;
+}
 .profile-img {
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+}
+
+aside a:hover {
+    color: white;
+}
+aside button:hover {
+    background-color: white;
+}
+
+.download img:hover {
+    filter: none;
+}
+.main-nav .flex:hover, .main-nav img:hover {
+    filter: none;
+    color: white;
 }
 
 
