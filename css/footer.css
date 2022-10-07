@@ -109,6 +109,14 @@ footer i:hover {
     display: none;
     margin-left: -6px;
 }
+.current-volume {
+    border-radius: 50%;
+    background-color: white;
+    width: 14px;
+    height: 14px;
+    display: none;
+    margin-left: -6px;
+}
 .player-bar:hover .current-bar {
     background-color: lightgreen;
 }
@@ -118,6 +126,12 @@ footer i:hover {
 
 footer .fa-circle-play:hover {
     scale: 1.1;
+}
+.volume-bar:hover .current-volume-bar {
+    background-color: lightgreen;
+}
+.volume-bar:hover .current-volume {
+    display: block;
 }
 
 @media screen and (max-width: 1100px) {
