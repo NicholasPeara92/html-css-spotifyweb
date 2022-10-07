@@ -109,23 +109,27 @@ aside li {
     object-fit: cover;
     object-position: center;
 }
-
-aside a:hover {
+.playlist-nav a:hover {
     color: white;
 }
-aside button:hover {
-    background-color: white;
-}
 
-.download img:hover {
-    filter: none;
-}
 .main-nav .flex:hover img {
     filter: none;
 }
 .main-nav .flex:hover a {
+    color: white;  
+}
+.btn-playlist:hover button {
+    background-color: white;
+}
+.btn-playlist:hover a {
     color: white;
-
+}
+.download:hover img {
+    filter: none;
+}
+.download:hover a {
+    color: white;
 }
 
 
