@@ -16,8 +16,13 @@ header button {
     border-radius: 2.5rem;
     height: 2.5rem;
     padding: 0 2.5rem;
-    margin-right: 30px;
+    margin-right: 40px;
     cursor: pointer;
+}
+
+header button:hover {
+    border: 2px solid white;
+    scale: 1.1;
 }
 
 @media screen and (max-width: 600px) {
