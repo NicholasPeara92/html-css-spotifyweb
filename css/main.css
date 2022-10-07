@@ -13,9 +13,24 @@ main {
     padding: 10px;
     font-size: 13px;
     font-weight: bold;
+    position: relative;
 }
 .general-nav a, .subtitle {
     color: #7a7d81;
+}
+.general-nav a {
+    display: inline-block;
+}
+
+.general-nav li:first-child:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: lightgreen;
+    bottom: 0;
+    left: calc(50% - 20px);
 }
 .description a {
     display: block;
