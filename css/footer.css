@@ -1,172 +1,175 @@
 /* FOOTER */
 
 footer {
-    height: 90px;
-    background-color: #282828;
+  height: 90px;
+  background-color: #282828;
+  color: white;
 }
 footer .container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .col-left {
-    width: 15%;
-    align-items: center;
+  width: 15%;
+  align-items: center;
 }
 
 .col-center {
-    width: 70%;
+  width: 70%;
 }
 
 .col-right {
-    width: 15%;
-    padding-right: 20px;
+  width: 15%;
+  padding-right: 20px;
 }
 
 .img-small {
-    max-width: 42px;
-    max-height: 42px;
+  max-width: 42px;
+  max-height: 42px;
 }
 .img-small img {
-    width: 100%;
+  width: 100%;
 }
 
 .col-left div {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 .like-save {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 .like-save i {
-    margin-right: 10px;
-    color: #5a5a5a;
+  margin-right: 10px;
+  color: #5a5a5a;
 }
 .player-description h6 {
-    color: #5a5a5a;
-    display: inline;
+  color: #5a5a5a;
+  display: inline;
 }
 
 .col-center .fa-solid {
-    margin: 20px 10px;
+  margin: 20px 10px;
 }
 .fa-circle-play {
-    font-size: 28px;
-    align-self: center;
-    margin: 0 20px;
-
+  font-size: 28px;
+  align-self: center;
+  margin: 0 20px;
 }
 .player-bar {
-    width: 430px;
-    height: 5px;
-    background-color: #5a5a5a;
+  width: 430px;
+  height: 5px;
+  background-color: #5a5a5a;
 }
 .current-bar {
-    height: 100%;
-    width: 30%;
-    background-color: white;
+  height: 100%;
+  width: 30%;
+  background-color: white;
 }
 .current-min {
-    font-size: 10px;
-    padding-right: 10px;
+  font-size: 10px;
+  padding-right: 10px;
 }
 .total-min {
-    font-size: 10px;
-    padding-left: 10px;
+  font-size: 10px;
+  padding-left: 10px;
 }
 .volume-bar {
-    height: 5px;
-    width: 120px;
-    background-color: #5a5a5a;
+  height: 5px;
+  width: 120px;
+  background-color: #5a5a5a;
 }
 .current-volume-bar {
-    height: 100%;
-    width: 30%;
-    background-color: white;
+  height: 100%;
+  width: 30%;
+  background-color: white;
 }
 .col-right i:not(.fa-volume-high) {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 .fa-volume-high {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .player-description a:hover h6 {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 footer i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .like-save i:hover {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 .current-time {
-    border-radius: 50%;
-    background-color: white;
-    width: 14px;
-    height: 14px;
-    display: none;
-    margin-left: -6px;
+  border-radius: 50%;
+  background-color: white;
+  width: 14px;
+  height: 14px;
+  display: none;
+  margin-left: -6px;
 }
 .current-volume {
-    border-radius: 50%;
-    background-color: white;
-    width: 14px;
-    height: 14px;
-    display: none;
-    margin-left: -6px;
+  border-radius: 50%;
+  background-color: white;
+  width: 14px;
+  height: 14px;
+  display: none;
+  margin-left: -6px;
 }
 .player-bar:hover .current-bar {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 .player-bar:hover .current-time {
-    display: block;
+  display: block;
 }
 
 footer .fa-circle-play:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 .volume-bar:hover .current-volume-bar {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 .volume-bar:hover .current-volume {
-    display: block;
+  display: block;
 }
 
 @media screen and (max-width: 1100px) {
-    .col-right, .col-left {
-        width: 30%;
-    }
-    .col-center {
-        width: 40%;
-    }
+  .col-right,
+  .col-left {
+    width: 30%;
+  }
+  .col-center {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .col-right, .col-left, .col-center {
-        width: calc(100% / 3);
-    }
-    .col-right {
-        padding-left: 20px;
-    }
-    .img-small {
-        max-width: 32px;
-        max-height: 32px;
-    }
-    .like-save i {
-        display: block;
-        padding: 3px;
-    }
+  .col-right,
+  .col-left,
+  .col-center {
+    width: calc(100% / 3);
+  }
+  .col-right {
+    padding-left: 20px;
+  }
+  .img-small {
+    max-width: 32px;
+    max-height: 32px;
+  }
+  .like-save i {
+    display: block;
+    padding: 3px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .img-small {
-        max-width: 29px;
-        max-height: 29px;
-    }
-    .like-save {
-        padding-right: 20px;
-        padding-left: 0;
-    }
+  .img-small {
+    max-width: 29px;
+    max-height: 29px;
+  }
+  .like-save {
+    padding-right: 20px;
+    padding-left: 0;
+  }
 }
